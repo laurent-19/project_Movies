@@ -8,13 +8,15 @@ import 'package:project_Movies/models/serializers.dart';
 part 'movie.g.dart';
 
 abstract class Movie implements Built<Movie, MovieBuilder> {
-  factory Movie([void Function(MovieBuilder b) updates]) = _$Movie;
+  factory Movie([void Function(MovieBuilder) updates]) = _$Movie;
 
   factory Movie.fromJson(dynamic json) {
     return serializers.deserializeWith(serializer, json);
   }
 
   Movie._();
+
+  int get id;
 
   String get title;
 

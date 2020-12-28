@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:http/http.dart';
+import 'package:project_Movies/presentation/movie_detail.dart';
 import 'package:redux/redux.dart';
 
 import 'actions/get_movies.dart';
@@ -36,8 +37,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return StoreProvider<AppState>(
       store: store,
-      child: const MaterialApp(
-        home: HomePage(),
+      child: MaterialApp(
+        home: const HomePage(),
+        routes: <String, WidgetBuilder>{
+          '/movieDetail': (BuildContext context) => const MovieDetail(),
+        },
       ),
     );
   }
