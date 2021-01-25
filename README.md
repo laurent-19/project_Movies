@@ -1,16 +1,31 @@
-# project_Movies
+# GAD2020
+Repository made for the Google GAD2020
 
-A new Flutter project.
+Author:  Popa Ioan-Laurentiu
 
-## Getting Started
+               Technical University of Cluj-Napoca
 
-This project is a starting point for a Flutter application.
+               2nd Year Automation and Computer Science
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Project Movie App
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Description
+This project used Dart and Flutter for a basic movies app with combines UI and API elements.
+
+### Dependencies
+
+This app was designed using various dependecies:
+
+```dart
+build_runner
+freezed
+redux
+```
+
+, which enabled us to generate the needed classes/Models rapidly.
+
+
+It also makes use of concepts like **containers**, **presentation** and **middleware**, everything being divided into categories.
+
+
