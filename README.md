@@ -27,6 +27,6 @@ redux
 
 
 It is based on concepts like **containers**, **presentation** and **middleware**, everything being divided into categories, 
-following the rules a standard **Redux** *state management* .
+following the rules of a standard **Redux** *state management* approach.
 
 
