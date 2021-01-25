@@ -11,7 +11,7 @@ Author:  Popa Ioan-Laurentiu
 ## Project Movie App
 
 ### Description
-This project used Dart and Flutter for a basic movies app with combines UI and API elements.
+This project used Dart and Flutter for a basic movie app which combines UI and API elements.
 
 ### Dependencies
 
@@ -26,6 +26,7 @@ redux
 , which enabled us to generate the needed classes/Models rapidly.
 
 
-It also makes use of concepts like **containers**, **presentation** and **middleware**, everything being divided into categories.
+It is based on concepts like **containers**, **presentation** and **middleware**, everything being divided into categories, 
+following the rules a standard **Redux** *state management* .
 
 
